@@ -1,0 +1,117 @@
+@import "nullstyle.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+/* =================================================================================================================== */
+/* Если подключаем шрифты вручную */
+
+/* @font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	}
+	
+	*/
+	/* ================================================================================================================ */
+
+	/* /* &display=swap - дописываем если нету (когда используем подгрузку шрифтов через @import/link */
+
+	/* ================================================================================================================ */
+	@font-face {
+	font-family: "CircularStd";
+		src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+		}
+
+	@font-face {
+		font-family: "CircularStd";
+		src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+		}
+
+	body{
+	font-family: "CircularStd", sans-serif;
+	font-size: 18px;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.content{
+	max-width: 1004px;
+	margin: 0 auto;
+}
+
+h1{
+	line-height: 1.26;
+	font-size: 65px;
+	text-align: center;
+	margin: 80px 0 15px;
+}
+
+.subtitle{
+	font-size: 20px;
+	max-width: 700px;
+	margin: 0 auto 225px;
+	text-align: center;
+	line-height: 1.25;
+	color: #5F5F5F;
+}
+
+h2{
+	opacity: 0.88;
+	color: #313131;
+	line-height: 1.29;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.text{
+	color: #5F5F5F;
+	line-height: 1.55;
+	max-width: 508px;
+	margin-bottom: 125px;
+}
+
+.name{
+	opacity: 0.88;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-bottom: 5px;
+}
+
+.work-position{
+	line-height: 1.27;
+	color: #B8B8B8;
+}
+
+.image{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer{
+	min-height: 80px;
+	background-color: #f7f7f7;
+}
+
+.href{
+	padding: 30px 0;
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	opacity: 0.50;
+	line-height: 1.3;
+}
+
+.page-two{
+	color: rebeccapurple;
+}
